@@ -1,5 +1,5 @@
 {
-  "name": "aquanir.cc",
+  "name": "ui.aquanir.cc",
   "private": true,
   "scripts": {
     "dev": "next dev",
