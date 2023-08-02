@@ -41,11 +41,11 @@ const UI: NextPage<{
 }> = () => (
     <>
         <Head>
-            <title>BlogCard - UI Library - 雨宫奈</title>
+            <title>Blog Hover Card - UI Library - 雨宫奈</title>
         </Head>
 
         <div className="my-4 container mx-auto max-w-3xl px-6">
-            <h1 className="heading-text mt-8 font-serif text-4xl">Blog Card</h1>
+            <h1 className="heading-text mt-8 font-serif text-4xl">Blog Hover Card</h1>
         </div>
 
         <div className="container border-2 border-dashed border-gray-400/60 flex flex-col mx-auto flex-1 max-w-3xl px-6 justify-center">

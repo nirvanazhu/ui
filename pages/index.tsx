@@ -122,10 +122,6 @@ const UI: NextPage<{
           Dark mode included
         </div>
       </div>
-      
-      <div className="mt-10 mb-8 text-center leading-7">
-        🚧 开发中页面，不代表最终效果。
-      </div>
 
     </div>
     <div className="flex-1" />

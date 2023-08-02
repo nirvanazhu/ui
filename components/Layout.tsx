@@ -2,6 +2,7 @@ import Head from 'next/head'
 
 import Footer from './Footer'
 import Navbar from './Navbar'
+import Notice from './Notice'
 
 const Layout = ({ children }: { children: React.ReactNode }) => (
   <>
@@ -29,6 +30,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => (
 
     <div className="flex min-h-screen flex-col">
       <Navbar />
+      <Notice />
       <main className="mt-8 flex-1 flex flex-col justify-center">{children}</main>
       <Footer />
     </div>

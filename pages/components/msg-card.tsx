@@ -9,7 +9,7 @@ const UI: NextPage<{
 }> = () => (
     <>
         <Head>
-            <title>MsgCard - UI Library - 雨宫奈</title>
+            <title>Message Card - UI Library - 雨宫奈</title>
         </Head>
 
         <div className="my-4 container mx-auto max-w-3xl px-6">
