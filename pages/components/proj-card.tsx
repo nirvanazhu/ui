@@ -4,7 +4,7 @@ import Head from 'next/head'
 import Link from 'next/link'
 // import Image from 'next/image'
 import { FiArrowLeft, FiGithub } from 'react-icons/fi'
-import { VscWindow } from 'react-icons/Vsc'
+import { VscWindow } from 'react-icons/vsc'
 
 const UI: NextPage<{
 }> = () => (

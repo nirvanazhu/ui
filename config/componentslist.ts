@@ -1,5 +1,5 @@
 import { IconType } from 'react-icons'
-import { VscLayoutMenubar, VscComment, VscNote } from 'react-icons/Vsc'
+import { VscLayoutMenubar, VscComment, VscNote } from 'react-icons/vsc'
 
 export interface ComponentsListProps {
     id: string
