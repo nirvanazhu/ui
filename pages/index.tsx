@@ -12,7 +12,7 @@ import { TemplatesListProps, templateslist } from '../config/templateslist'
 const ComponentsListShowcase = (props: ComponentsListProps) => {
   return (
     <a href={props.url} target="_self" rel="noopener noreferrer">
-      <div className="primary-text flex items-center justify-between rounded border-2 border-dashed border-gray-400/60 bg-light-300 p-4 space-x-4 transition-all duration-150 hover:opacity-80 hover:shadow-lg dark:bg-dark-700">
+      <div className="primary-text flex items-center justify-between rounded border-2 border-dashed border-gray-400/60 bg-light-300 p-4 space-x-4 hover:bg-light-500 dark:hover:bg-dark-300 dark:bg-dark-700">
         <div className="truncate">
           <div className="font-bold">{props.id}</div>
           <div className="font-mono text-sm">{props.slug}</div>
@@ -48,7 +48,11 @@ const UI: NextPage<{
     </Head>
 
     <div className="container mx-auto max-w-3xl px-6">
-      <h1 className="heading-text mt-8 font-serif text-4xl">UI Library</h1>
+      <div className="flex inline-flex items-end">
+        <h1 className="heading-text mt-8 font-serif text-4xl">UI Library</h1>
+        <p className="secondary-text text-base ml-2">Ver. 2</p>
+      </div>
+      
       <p className="mt-4 mb-2 primary-text text-lg">
         📦 Components and page templates Library
       </p>
@@ -120,7 +124,7 @@ const UI: NextPage<{
       </div>
       
       <div className="mt-10 mb-8 text-center leading-7">
-        🚧 开发中版本，不代表最终效果。
+        🚧 开发中页面，不代表最终效果。
       </div>
 
     </div>
