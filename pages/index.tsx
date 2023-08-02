@@ -101,7 +101,7 @@ const UI: NextPage<{
         This project is open source. Check it on{` `}
         <div className="my-2 inline-flex items-center space-x-1">
           <FiGithub size={16} />
-          <a target="_blank" href="https://github.com/nirvanazhu/ui">
+          <a target="_blank" rel="noopener noreferrer" href="https://github.com/nirvanazhu/ui">
             <span className="hover-links ">
               GitHub
             </span>
