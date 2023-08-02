@@ -19,21 +19,6 @@ module.exports = {
   async redirects() {
     return [
       {
-        source: '/posts/index.xml',
-        destination: '/feed',
-        permanent: false,
-      },
-      {
-        source: '/feed.xml',
-        destination: '/feed',
-        permanent: false,
-      },
-      {
-        source: '/rip/cc',
-        destination: '/aquacc',
-        permanent: false,
-      },
-      {
         source: '/friends',
         destination: 'https://blog.nir.land/friends',
         permanent: false,
@@ -41,6 +26,11 @@ module.exports = {
       {
         source: '/blog',
         destination: 'https://blog.nir.land',
+        permanent: false,
+      },
+      {
+        source: '/about',
+        destination: 'https://aquanir.cc/ui',
         permanent: false,
       },
     ]
