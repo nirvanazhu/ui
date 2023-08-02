@@ -49,7 +49,7 @@ const UI: NextPage<{
         </div>
 
         <div className="mt-4 container flex flex-col mx-auto flex-1 max-w-3xl px-6">
-            <p className="secondary-text font-mono test-sm text-center">Component Example</p>
+            <p className="secondary-text font-mono text-sm text-center">Component Area</p>
 
             <p className="primary-text text-base mt-8">This component is used in UI Library home page.</p>
 

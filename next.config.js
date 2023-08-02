@@ -43,46 +43,6 @@ module.exports = {
         destination: 'https://blog.nir.land',
         permanent: false,
       },
-      {
-        source: '/playlist/fav2019',
-        destination: '/play?server=netease&id=3163516772',
-        permanent: false,
-      },
-      {
-        source: '/playlist/fav2020',
-        destination: '/play?server=netease&id=5400212526',
-        permanent: false,
-      },
-      {
-        source: '/playlist/fav2021',
-        destination: '/play?server=netease&id=7189117884',
-        permanent: false,
-      },
-      {
-        source: '/playlist/fav2022',
-        destination: '/play?server=netease&id=7949411992',
-        permanent: false,
-      },
-      {
-        source: '/playlist/chill',
-        destination: '/play?server=netease&id=5160315348',
-        permanent: false,
-      },
-      {
-        source: '/playlist/ys_v38',
-        destination: '/play?server=tencent&id=002LoikR0BEwlv&type=album',
-        permanent: false,
-      },
-      {
-        source: '/playlist/sr_v12',
-        destination: '/play?server=tencent&id=002DgUWY4AD9zS&type=album',
-        permanent: false,
-      },
-      {
-        source: '/playlist/hk3_vocal',
-        destination: '/play?server=netease&id=8603616847',
-        permanent: false,
-      },
     ]
   },
 }

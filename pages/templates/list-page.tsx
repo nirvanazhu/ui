@@ -9,11 +9,11 @@ const UI: NextPage<{
   <>
     <div className="">
       <Head>
-        <title>ListWithBadge - UI Library - 雨宫奈</title>
+        <title>ListPage - UI Library - 雨宫奈</title>
       </Head>
 
       <div className="container flex flex-col mx-auto flex-1 max-w-3xl px-6">
-        <h1 className="heading-text my-8 font-serif text-4xl">ListWithBadge</h1>
+        <h1 className="heading-text my-8 font-serif text-4xl">List Page</h1>
 
         <p className="secondary-text mb-12">
         💡 You can put announcement here.

@@ -1,5 +1,5 @@
 import type { NextPage } from 'next'
-import { FiArrowRight } from 'react-icons/fi'
+import { FiArrowRight, FiMoon } from 'react-icons/fi'
 
 import Head from 'next/head'
 // import Image from 'next/image'
@@ -31,7 +31,13 @@ const UI: NextPage<{
                     </a>
                 </Link>
             </p>
-            <p className="mt-2 secondary-text font-mono text-sm text-center">(Development version)</p>
+            <div className="mt-2 secondary-text text-sm text-center">
+                <div className="my-2 inline-flex items-center space-x-1">
+                    <FiMoon size={12} />
+                    <div className="mx-1"> </div>
+                    Dark mode included
+                </div>
+            </div>
         </div>
     </>
 )

@@ -1,5 +1,5 @@
 import { IconType } from 'react-icons'
-import { FiFile, FiSlash } from 'react-icons/fi'
+import { FiFile, FiUser, FiList, FiSlash } from 'react-icons/fi'
 
 export interface TemplatesListProps {
     id: string
@@ -9,13 +9,18 @@ export interface TemplatesListProps {
 
 export const templateslist: TemplatesListProps[] = [
     {
-        id: 'HomePage',
-        url: '/templates/home-page',
-        icon: FiFile,
+        id: 'UserPage',
+        url: '/templates/user-page',
+        icon: FiUser,
     },
     {
         id: 'ListPage',
         url: '/templates/list-page',
+        icon: FiList,
+    },
+    {
+        id: 'EmptyPage',
+        url: '/templates/empty-page',
         icon: FiFile,
     },
     {

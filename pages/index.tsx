@@ -1,7 +1,7 @@
 import type { NextPage } from 'next'
 // import { FiArrowLeft } from 'react-icons/fi'
 import { SiNextdotjs, SiTailwindcss } from 'react-icons/si'
-import { FiGithub } from 'react-icons/fi'
+import { FiGithub, FiMoon } from 'react-icons/fi'
 
 import Head from 'next/head'
 // import Link from 'next/link'
@@ -53,7 +53,7 @@ const UI: NextPage<{
         📦 Components and page templates Library
       </p>
 
-      <div className="secondary-text mt-4 mb-4 text-base">
+      <div className="secondary-text text-base">
         Based on{` `}
         <div className="my-2 inline-flex items-center space-x-1">
           <SiNextdotjs size={16} />
@@ -74,7 +74,7 @@ const UI: NextPage<{
           </div>
       </div>
 
-      <div className="heading-text font-serif text-2xl mb-4">Components</div>
+      <div className="heading-text font-serif text-2xl mt-6 mb-4">Components</div>
 
       <div className="mb-8 grid grid-cols-1 gap-4 sm:grid-cols-3">
         {componentslist.map((componentslist: ComponentsListProps) => (
@@ -82,7 +82,7 @@ const UI: NextPage<{
         ))}
       </div>
 
-      <div className="heading-text font-serif text-2xl mt-8 mb-4">Templates</div>
+      <div className="heading-text font-serif text-2xl mt-6 mb-4">Templates</div>
 
       <div className="secondary-text font-mono text-base mb-4">
         <div>
@@ -96,10 +96,11 @@ const UI: NextPage<{
         More to come...
       </p>
 
-      <div className="heading-text font-serif text-2xl mt-8 mb-4">Contribute</div>
-      <p className="primary-text text-base mb-4">
+      <div className="heading-text font-serif text-2xl mt-6 mb-4">About</div>
+      <p className="primary-text text-base mb-1">The consistent design resources that I use to build my websites.</p>
+      <p className="primary-text text-base">
         This project is open source. Check it on{` `}
-        <div className="my-2 inline-flex items-center space-x-1">
+        <div className="inline-flex items-center space-x-1">
           <FiGithub size={16} />
           <a target="_blank" rel="noopener noreferrer" href="https://github.com/nirvanazhu/ui">
             <span className="hover-links ">
@@ -109,8 +110,16 @@ const UI: NextPage<{
         </div>
         .
       </p>
+
+      <div className="secondary-text mb-4 text-sm">
+        <div className="my-2 inline-flex items-center space-x-1">
+          <FiMoon size={12} />
+          <div className="mx-1"> </div>
+          Dark mode included
+        </div>
+      </div>
       
-      <div className="mt-20 mb-8 text-center leading-7">
+      <div className="mt-10 mb-8 text-center leading-7">
         🚧 开发中版本，不代表最终效果。
       </div>
 

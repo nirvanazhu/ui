@@ -9,7 +9,7 @@ const Home: NextPage<{
 }> = () => (
   <>
     <Head>
-      <title>HomepageWithAvatar - UI Library - 雨宫奈</title>
+      <title>UserPage - UI Library - 雨宫奈</title>
     </Head>
 
     <div className="container flex flex-col mx-auto flex-1 max-w-3xl px-6 justify-center">
