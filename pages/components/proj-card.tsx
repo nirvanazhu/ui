@@ -3,8 +3,7 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Link from 'next/link'
 // import Image from 'next/image'
-import { FiArrowLeft, FiGithub } from 'react-icons/fi'
-import { VscWindow } from 'react-icons/vsc'
+import { FiArrowLeft, FiGithub, FiSquare, FiTriangle, FiCircle } from 'react-icons/fi'
 
 const UI: NextPage<{
 }> = () => (
@@ -25,7 +24,7 @@ const UI: NextPage<{
                             <div className="font-bold">Project 1</div>
                             <div className="font-mono text-sm">Project Slug</div>
                         </div>
-                        <VscWindow size={24} className="flex-shrink-0" />
+                        <FiSquare size={24} className="flex-shrink-0" />
                     </div>
                 </a>
                 <a href="#" target="_self" rel="noopener noreferrer">
@@ -34,7 +33,7 @@ const UI: NextPage<{
                             <div className="font-bold">Project 2</div>
                             <div className="font-mono text-sm">Project Slug</div>
                         </div>
-                        <VscWindow size={24} className="flex-shrink-0" />
+                        <FiTriangle size={24} className="flex-shrink-0" />
                     </div>
                 </a>
                 <a href="#" target="_self" rel="noopener noreferrer">
@@ -43,7 +42,7 @@ const UI: NextPage<{
                             <div className="font-bold">Project 3</div>
                             <div className="font-mono text-sm">Project Slug</div>
                         </div>
-                        <VscWindow size={24} className="flex-shrink-0" />
+                        <FiCircle size={24} className="flex-shrink-0" />
                     </div>
                 </a>
             </div>

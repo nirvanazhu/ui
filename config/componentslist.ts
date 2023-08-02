@@ -1,5 +1,5 @@
 import { IconType } from 'react-icons'
-import { VscLayoutMenubar, VscComment, VscNote } from 'react-icons/vsc'
+import { FiLayout, FiMessageSquare, FiCreditCard } from 'react-icons/fi'
 
 export interface ComponentsListProps {
     id: string
@@ -13,18 +13,18 @@ export const componentslist: ComponentsListProps[] = [
         id: 'Base Container',
         url: '/components/container',
         slug: 'container',
-        icon: VscLayoutMenubar,
+        icon: FiLayout,
     },
     {
         id: 'Message Card',
         url: '/components/msg-card',
         slug: 'msg-card',
-        icon: VscComment,
+        icon: FiMessageSquare,
     },
     {
         id: 'Project Card',
         url: '/components/proj-card',
         slug: 'proj-card',
-        icon: VscNote,
+        icon: FiCreditCard,
     },
 ]
