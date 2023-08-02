@@ -1,15 +1,30 @@
+import { IconType } from 'react-icons'
+import { VscLayoutMenubar, VscComment, VscNote } from 'react-icons/Vsc'
+
 export interface ComponentsListProps {
     id: string
     url: string
+    slug: string
+    icon: IconType
 }
 
 export const componentslist: ComponentsListProps[] = [
     {
-        id: 'BaseContainer',
+        id: 'Base Container',
         url: '/components/container',
+        slug: 'container',
+        icon: VscLayoutMenubar,
     },
     {
-        id: 'MessageBox',
-        url: '/components/message-box',
+        id: 'Message Card',
+        url: '/components/msg-card',
+        slug: 'msg-card',
+        icon: VscComment,
+    },
+    {
+        id: 'Project Card',
+        url: '/components/proj-card',
+        slug: 'proj-card',
+        icon: VscNote,
     },
 ]

@@ -37,7 +37,7 @@ const navMore = [
   },
   {
     name: 'UI Library',
-    link: '/',
+    link: 'https://aquanir.cc/ui',
   },
 ]
 
